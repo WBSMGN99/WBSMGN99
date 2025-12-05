@@ -1,31 +1,45 @@
-# Hi there, I'm [美高男] <img width="30px" height="30" src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" />
+# Hi there, I'm 美高男 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" height="30px" alt="Wave">
 
-<img align="right" alt="GIF" height="160px" src="https://octodex.github.com/images/daftpunktocat-guy.gif" />
-
-##  🚀
-
-- 🌱 I am currently learning **[Python/React]**.
-- 📫 How to reach me: **[TG✈️@N99999_9]**
-- 😄 Pronouns: He/Him
-
-[![GitHub](https://img.shields.io/badge/Github-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/[你的GitHub用户名])
-[![Linkedin](https://img.shields.io/badge/Linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/[你的Linkedin用户名]/)
-
----
-
-### 📊 My GitHub Stats
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=[WBSMGN99]&show_icons=true&theme=radical" alt="GitHub Stats" />
-  
-  <br/>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[WBSMGN99]&layout=compact&theme=radical" alt="Top Langs" />
+<div align="right">
+  <img src="https://octodex.github.com/images/daftpunktocat-guy.gif" height="150px" alt="Daftpunkocat" />
 </div>
+
+### 🚀 About Me
+
+- 🌱 I am currently learning **Python** and **React**.
+- 📫 How to reach me: **[TG ✈️ @N99999_9](https://t.me/N99999_9)**
+- 😄 Pronouns: **He/Him**
 
 ---
 
 ### 🛠 Tech Stack
 
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)]()
-[![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)]()
+<div align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</div>
+
+<br />
+
+### 📊 GitHub Stats
+
+<div align="left">
+  <a href="https://github.com/wbsmgn99">
+    <img src="https://github-readme-stats.vercel.app/api?username=wbsmgn99&show_icons=true&theme=radical" alt="wbsmgn99's Stats" />
+  </a>
+  <br/>
+  <a href="https://github.com/wbsmgn99">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wbsmgn99&layout=compact&theme=radical" alt="Top Langs" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+  
+  [![GitHub](https://img.shields.io/badge/GitHub-wbsmgn99-181717?style=for-the-badge&logo=github)](https://github.com/wbsmgn99)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/[YourLinkedinUsername]/)
+
+</div>
