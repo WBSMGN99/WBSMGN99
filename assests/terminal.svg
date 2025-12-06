@@ -1,0 +1,21 @@
+<svg width="960" height="540" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes blink {0%,50%{opacity:1}51%,100%{opacity:0}}
+    @keyframes type{from{width:0}to{width:100%}}
+    text {font-family:'Fira Code',monospace;fill:#00ff41;font-size:18px}
+    .cursor{animation:blink 1s step-end infinite}
+  </style>
+  <rect width="100%" height="100%" fill="#000"/>
+  <text x="30" y="60" fill="#0f0">┌──────────────────────────────────────────────────────────────┐</text>
+  <text x="30" y="100" fill="#00ff41">root@zion:~# whoami</text>
+  <text x="30" y="140" fill="#fff">99</text>
+  <text x="30" y="200" fill="#00ff41">root@zion:~# cat profile.toml</text>
+  <text x="30" y="240">status           = "已接入矩阵 // 在线逃亡中"</text>
+  <text x="30" y="280">learning         = ["Rust🦀","WebAssembly","灵魂绑定"]</text>
+  <text x="30" y="320">seeking          = "同频替身使者 / 喝冰美式0糖的人"</text>
+  <text x="30" y="360">2025_mission     = ["全绿贡献图","上CVE","逃出矩阵"]</text>
+  <text x="30" y="400">interests        = "绿色数字雨 / 机械键盘 / 猫"</text>
+  <text x="30" y="440">quote            = "There is no spoon. 只有 0 和 1。"</text>
+  <text x="30" y="500" fill="#0f0">└──────────────────────────────────────────────────────────────┘</text>
+  <text x="30" y="540" fill="#00ff41">root@zion:~# <animate attributeName="opacity" values="0;1;1" dur="8s" repeatCount="indefinite"/><tspan class="cursor">█</tspan></text>
+</svg>
