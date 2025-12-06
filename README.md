@@ -1,23 +1,33 @@
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=40&duration=2800&pause=1000&color=4BFF4B&background=001105CC&center=true&vCenter=true&width=980&lines=Hey%2C+I'm+99!;There+is+no+spoon.;Hack+the+Planet!;Welcome+to+my+Matrix.&matrix=true&matrixDensity=15&matrixSpeed=80" alt="Dense Matrix rain"/>
+
 
 <img src="assests/borderseperator.gif">
 
-<p align="center">
-    <img src="https://komarev.com/ghpvc/?username=WBSMGN99&color=0079fa&style=flat-square&label=PROFILE+VIEWS" alt="profile view counter">
-</p> <br>
 
+<div align="center">
 
-* 🌳 I’m currently learning: **[Tech/Language you are learning]** <br> 
-  - [Specific Course or Book 1]
-  - [Specific Course or Book 2] <br>
+<!-- 数字雨 + 多行自动打字标题 -->
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=48&duration=3400&pause=1000&color=00FF41&background=000000&center=true&vCenter=true&width=1200&height=140&lines=Wake+up%2C+Neo...;Hey%2C+I%27m+WBSMGN99;The+Matrix+has+you...;Knock+knock.;root%40zion%3A~%23+whoami&matrix=true&matrixSpeed=95&matrixDensity=23" alt="Matrix typing"/>
 
-* 🐾 I’m looking for: **[e.g., to network and make friends / Open Source collaboration]** <br><br>
+<br><br>
 
-* 🌊 Goals: **[Your Goal for this year]** <br><br>
+<!-- 你原来的静态绿终端（带闪烁方块） -->
+<img src="https://raw.githubusercontent.com/WBSMGN99/WBSMGN99/main/terminal.svg?sanitize=true" 
+     alt="黑客帝国终端" 
+     style="border:3px solid #00ff41;border-radius:15px;box-shadow:0 0 50px #00ff41aa;max-width:960px;width:100%;"/>
 
-* ☕ Interests: **[e.g., Cats, Coffee, and Coding]** <br><br>
+<br><br>
 
-* :octocat: Hobbies: **[Your Hobbies]** <br><br>
+<!-- 入侵计数器（自动涨） -->
+<img src="https://komarev.com/ghpvc/?username=WBSMGN99&label=Agents%20in%20Matrix&color=00ff41&style=for-the-badge" />
+
+<br><br>
+
+<!-- 白兔子收尾 -->
+<p style="font-family:Fira Code,monospace;color:#00ff41;font-size:18px;">
+  Follow the white rabbit... 🐇
+</p>
+
+</div>
 
 <h2></h2><br>
 
