@@ -1,34 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620">
+<svg width="960" height="680" viewBox="0 0 960 680" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @keyframes blink {0%,50%{opacity:1}51%,100%{opacity:0}}
-      @keyframes glow {0%,100%{box-shadow:0 0 40px #00ff4180}50%{box-shadow:0 0 70px #00ff41cc}}
-      text{font-family:'Fira Code',monospace;fill:#00ff41;font-size:18px}
-      .prompt{fill:#0f0}
-      .cmd{fill:#00ff41}
-      .output{fill:#fff}
-      .cursor{animation:blink 1s step-end infinite}
-      .terminal{animation:glow 6s ease-in-out infinite}
+      @keyframes blink { 0%,50% { opacity:1 } 51%,100% { opacity:0 } }
+      @keyframes glow { 0%,100% { filter: drop-shadow(0 0 20px #00ff4180) } 50% { filter: drop-shadow(0 0 40px #00ff41cc) } }
+      text { font-family: 'Fira Code', 'Consolas', monospace; font-size: 19px; }
     </style>
   </defs>
-  <foreignObject x="0" y="0" width="960" height="620">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="background:#000;color:#00ff41;font-family:'Fira Code',monospace;font-size:18px;line-height:1.6;border:3px solid #00ff41;border-radius:15px;padding:25px;box-shadow:0 0 50px #00ff4180;animation:glow 6s ease-in-out infinite;">
-      <div><span class="prompt">┌──────────────────────────────────────────────────────────────┐</span></div>
-      <div><span class="prompt">│  </span><span class="cmd">root@zion</span>:<span class="cmd">~</span>#                                          <span class="prompt">│</span></div>
-      <div><span class="prompt">│  99                                                          <span class="prompt">│</span></div>
-      <div><span class="prompt">│                                                              <span class="prompt">│</span></div>
-      <div><span class="prompt">│  </span><span class="cmd">root@zion</span>:<span class="cmd">~</span># cat about.me                                  <span class="prompt">│</span></div>
-      <div><span class="prompt">│  name         = "99"                                        <span class="prompt">│</span></div>
-      <div><span class="prompt">│  age          = 20                                          <span class="prompt">│</span></div>
-      <div><span class="prompt">│  from         = "JOJO的奇妙冒险 🐲 第X部"                   <span class="prompt">│</span></div>
-      <div><span class="prompt">│  drink        = "牛子（每天三瓶）"                          <span class="prompt">│</span></div>
-      <div><span class="prompt">│  midnight     = "刷Netflix到天亮"                           <span class="prompt">│</span></div>
-      <div><span class="prompt">│  political    = "坚定的民主人士"                            <span class="prompt">│</span></div>
-      <div><span class="prompt">│  status       = "心碎版 💔 持续更新中..."                   <span class="prompt">│</span></div>
-      <div><span class="prompt">│  mood         = "反正活着就是不停地心碎和缝合"              <span class="prompt">│</span></div>
-      <div><span class="prompt">│  quote        = "There is no spoon. 只有牛子和眼泪。"      <span class="prompt">│</span></div>
-      <div><span class="prompt">└──────────────────────────────────────────────────────────────┘</span></div>
-      <div style="margin-top:15px;"><span class="cmd">root@zion</span>:<span class="cmd">~</span># <span class="cursor">█</span></div>
-    </div>
-  </foreignObject>
+
+  <!-- 背景 + 边框辉光 -->
+  <rect width="960" height="680" fill="#000" stroke="#00ff41" stroke-width="4" rx="15" filter="url(#glow)"/>
+  <defs><filter id="glow"><feGaussianBlur stdDeviation="10" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+
+  <!-- 内容（纯 text，永不被过滤） -->
+  <text x="40" y="60"  fill="#0f0">┌──────────────────────────────────────────────────────────────┐</text>
+  <text x="40" y="100" fill="#00ff41">│  root@zion:~# whoami                                         <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="140" fill="#ffffff">│  99                                                          <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="180" fill="#0f0">│                                                              │</text>
+  <text x="40" y="220" fill="#00ff41">│  root@zion:~# cat about.me                                   <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="260" fill="#fff">│  name         = "99"                                         <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="300" fill="#fff">│  age          = 20                                           <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="340" fill="#fff">│  from         = "JOJO的奇妙冒险 第X部"                <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="380" fill="#fff">│  drink        = "牛子（每天三瓶）"                           <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="420" fill="#fff">│  midnight     = "刷Netflix到天亮"                            <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="460" fill="#fff">│  political    = "坚定的民主人士"                             <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="500" fill="#fff">│  status       = "心碎版 持续更新中..."                <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="540" fill="#fff">│  quote        = "There is no spoon. 只有牛子和眼泪。" <tspan fill="#0f0">│</tspan></text>
+  <text x="40" y="580" fill="#0f0">└──────────────────────────────────────────────────────────────┘</text>
+
+  <!-- 闪烁光标 -->
+  <text x="40" y="630" fill="#00ff41">root@zion:~# <tspan font-size="24" fill="#00ff41" style="animation:blink 1s steps(1) infinite">█</tspan></text>
 </svg>
