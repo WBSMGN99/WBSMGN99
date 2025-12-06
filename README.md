@@ -2,13 +2,8 @@
 
 <!-- 开场分割线 -->
 <img src="https://raw.githubusercontent.com/WBSMGN99/WBSMGN99/main/assets/borderseperator.gif?raw=true" width="100%"/>
-
-<!-- 终极动态打字终端 GIF（永不被杀，真正咔哒咔哒） -->
-<img src="https://raw.githubusercontent.com/WBSMGN99/WBSMGN99/main/assets/typing-terminal.gif?raw=true" 
-     style="margin-top:-280px;border:9px solid #00ff41;border-radius:32px;box-shadow:0 0 120px #00ff41ff;max-width:960px;width:94%;background:#000"/>
-
-<!-- 数字雨 -->
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=46&duration=999999&pause=0&color=00FF41&background=00000000&center=true&vCenter=true&width=1300&height=480&lines=;&matrix=true&matrixSpeed=90&matrixDensity=26"/>
+<img src="https://raw.githubusercontent.com/WBSMGN99/WBSMGN99/main/terminal.svg?raw=true" 
+     style="margin-top:-280px;max-width:960px;width:94%"/>
 
 <br><br><br>
 
