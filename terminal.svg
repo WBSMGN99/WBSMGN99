@@ -1,33 +1,34 @@
-<svg width="100%" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="820" viewBox="0 0 1000 820" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       @keyframes blink {0%,50%{opacity:1}51%,100%{opacity:0}}
-      text { font-family:'Fira Code','Cascadia Code','Consolas',monospace; letter-spacing:1px; }
+      text {font-family:'Fira Code','Cascadia Code','Consolas',monospace;fill:#00ff41;font-size:27px;font-weight:500;letter-spacing:0.5px;}
     </style>
   </defs>
 
-  <!-- 超爽辉光边框 -->
-  <rect x="25" y="25" width="950" height="670" rx="35" fill="#000" stroke="#00ff41" stroke-width="10">
-    <animate attributeName="opacity" values="0.95;0.85;0.95" dur="6s" repeatCount="indefinite"/>
-  </rect>
+  <!-- 完美闭合边框 -->
+  <rect x="20" y="20" width="960" height="780" rx="35" fill="none" stroke="#00ff41" stroke-width="10"/>
+  <rect x="30" y="30" width="940" height="760" fill="#000" rx="25"/>
 
-  <!-- 内容（像素级对齐 + 颜色舒服到炸） -->
-  <text x="70" y="100" fill="#0f0" font-size="28">┌──────────────────────────────────────────────────────────────┐</text>
-  <text x="70" y="160" fill="#00ff41" font-size="30">│  root@zion:~# whoami                                         <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="220" fill="#ffffff" font-size="52" font-weight="bold">│  99                                                          <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="300" fill="#00ff41" font-size="30">│  root@zion:~# cat about.me                                   <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="360" fill="#33ff99" font-size="28">│  name         = "99"                                         <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="410" fill="#33ff99" font-size="28">│  age          = 20                                           <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="460" fill="#33ff99" font-size="28">│  from         = "JOJO的奇妙冒险 第X部"                <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="510" fill="#ff3366" font-size="32" font-weight="bold">│  drink        = "牛子（每天三杯）"                           <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="560" fill="#33ff99" font-size="28">│  midnight     = "刷Netflix到天亮"                            <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="610" fill="#33ff99" font-size="28">│  political    = "坚定的民主人士"                             <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="660" fill="#ff4444" font-size="32" font-weight="bold">│  status       = "心碎版 持续更新中..."                <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="710" fill="#ff8888" font-size="29">│  quote        = "There is no spoon. 只有牛子和眼泪。" <tspan fill="#0f0">│</tspan></text>
-  <text x="70" y="760" fill="#0f0" font-size="28">└──────────────────────────────────────────────────────────────┘</text>
+  <!-- 所有文字统一荧绿 -->
+  <text x="80" y="100"  fill="#0f0">┌──────────────────────────────────────────────────────────────┐</text>
+  <text x="80" y="160" >│  root@zion:~# 个人简介                                           <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="220" >│  读档......                                                            <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="280" >│                                                                <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="340" >│  root@zion:~# about.me                                     <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="400" >│  name         = "99"                                           <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="450" >│  age          = 20岁                                             <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="500" >│  from         = "JOJO的奇妙冒险 第X部"                  <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="550" >│  drink        = "牛子（每天两瓶公司免费发的）"                             <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="600" >│  midnight     = "打飞机(代码）到天亮"                              <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="650" >│  political    = "坚定的民主人士🇨🇳"                               <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="700" >│  status       = "心碎版 持续更新中...💔"                         <tspan fill="#0f0">│</tspan></text>
+  <!-- 只有这行末尾疯狂闪 █ -->
+  <text x="80" y="750" >│  quote        = "There is no spoon. 只有牛子和眼泪😭。"<tspan style="animation:blink 0.8s steps(1) infinite;font-size:36px;font-weight:bold"> █</tspan>   <tspan fill="#0f0">│</tspan></text>
+  <text x="80" y="800"  fill="#0f0">└──────────────────────────────────────────────────────────────┘</text>
 
-  <!-- 光标疯狂闪（在最末尾） -->
-  <text x="70" y="810" fill="#00ff41" font-size="44" font-weight="bold" style="animation:blink 0.8s steps(1) infinite">
-    root@zion:~# █
+  <!-- 最后一行的提示（静静等待） -->
+  <text x="80" y="870" font-size="38" font-weight="bold">
+    root@zion:~#
   </text>
 </svg>
