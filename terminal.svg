@@ -1,33 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620">
   <defs>
     <style>
       @keyframes blink {0%,50%{opacity:1}51%,100%{opacity:0}}
-      @keyframes type{from{stroke-dashoffset:100%}to{stroke-dashoffset:0}}
-      @keyframes scan{0%{box-shadow:0 0 40px #00ff4180}100%{box-shadow:0 0 70px #00ff41cc}}
-      text{font-family:'Fira Code',monospace;fill:#00ff41;font-size:18px;letter-spacing:0.5px}
+      @keyframes glow {0%,100%{box-shadow:0 0 40px #00ff4180}50%{box-shadow:0 0 70px #00ff41cc}}
+      text{font-family:'Fira Code',monospace;fill:#00ff41;font-size:18px}
       .prompt{fill:#0f0}
       .cmd{fill:#00ff41}
       .output{fill:#fff}
       .cursor{animation:blink 1s step-end infinite}
-      .terminal{animation:scan 6s ease-in-out infinite}
+      .terminal{animation:glow 6s ease-in-out infinite}
     </style>
   </defs>
-  <foreignObject x="0" y="0" width="960" height="600">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="background:#000;color:#00ff41;font-family:'Fira Code',monospace;font-size:18px;line-height:1.5;border:2px solid #00ff41;border-radius:12px;padding:20px;box-shadow:0 0 40px #00ff4180;animation:scan 6s ease-in-out infinite;overflow:hidden;">
-      <div style="margin-bottom:10px;"><span class="prompt">┌──────────────────────────────────────────────────────────────┐</span></div>
-      <div style="margin-bottom:10px;"><span class="prompt">│  </span><span class="cmd">root@zion</span>:<span class="cmd">~</span># whoami <span class="cursor">█</span><span class="prompt"> │</span></div>
-      <div style="margin-bottom:10px;"><span class="prompt">│  99                                                          </span><span class="prompt">│</span></div>
-      <div style="margin-bottom:10px;"><span class="prompt">│                                                              </span><span class="prompt">│</span></div>
-      <div style="margin-bottom:10px;"><span class="prompt">│  </span><span class="cmd">root@zion</span>:<span class="cmd">~</span># cat profile.toml                       <span class="prompt">│</span></div>
-      <div style="margin-bottom:5px;"><span class="prompt">│  status           = "已接入矩阵 // 在线逃亡中"               </span><span class="prompt">│</span></div>
-      <div style="margin-bottom:5px;"><span class="prompt">│  learning         = ["Rust 🦀","WebAssembly","灵魂绑定"]     </span><span class="prompt">│</span></div>
-      <div style="margin-bottom:5px;"><span class="prompt">│  seeking          = "同频替身使者 / 喝冰美式0糖的人"         </span><span class="prompt">│</span></div>
-      <div style="margin-bottom:5px;"><span class="prompt">│  2025_mission     = ["全绿贡献图","上 CVE","逃出矩阵"]       </span><span class="prompt">│</span></div>
-      <div style="margin-bottom:5px;"><span class="prompt">│  interests        = "绿色数字雨 / 机械键盘 / 猫 / 冰美式"    </span><span class="prompt">│</span></div>
-      <div style="margin-bottom:5px;"><span class="prompt">│  hobbies          = "深夜写Exp / 用IDA看星星 / 加特效"       </span><span class="prompt">│</span></div>
-      <div style="margin-bottom:5px;"><span class="prompt">│  quote            = "There is no spoon. 只有 0 和 1。"       </span><span class="prompt">│</span></div>
+  <foreignObject x="0" y="0" width="960" height="620">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="background:#000;color:#00ff41;font-family:'Fira Code',monospace;font-size:18px;line-height:1.6;border:3px solid #00ff41;border-radius:15px;padding:25px;box-shadow:0 0 50px #00ff4180;animation:glow 6s ease-in-out infinite;">
+      <div><span class="prompt">┌──────────────────────────────────────────────────────────────┐</span></div>
+      <div><span class="prompt">│  </span><span class="cmd">root@zion</span>:<span class="cmd">~</span>#                                          <span class="prompt">│</span></div>
+      <div><span class="prompt">│  99                                                          <span class="prompt">│</span></div>
+      <div><span class="prompt">│                                                              <span class="prompt">│</span></div>
+      <div><span class="prompt">│  </span><span class="cmd">root@zion</span>:<span class="cmd">~</span># cat about.me                                  <span class="prompt">│</span></div>
+      <div><span class="prompt">│  name         = "99"                                        <span class="prompt">│</span></div>
+      <div><span class="prompt">│  age          = 20                                          <span class="prompt">│</span></div>
+      <div><span class="prompt">│  from         = "JOJO的奇妙冒险 🐲 第X部"                   <span class="prompt">│</span></div>
+      <div><span class="prompt">│  drink        = "牛子（每天三瓶）"                          <span class="prompt">│</span></div>
+      <div><span class="prompt">│  midnight     = "刷Netflix到天亮"                           <span class="prompt">│</span></div>
+      <div><span class="prompt">│  political    = "坚定的民主人士"                            <span class="prompt">│</span></div>
+      <div><span class="prompt">│  status       = "心碎版 💔 持续更新中..."                   <span class="prompt">│</span></div>
+      <div><span class="prompt">│  mood         = "反正活着就是不停地心碎和缝合"              <span class="prompt">│</span></div>
+      <div><span class="prompt">│  quote        = "There is no spoon. 只有牛子和眼泪。"      <span class="prompt">│</span></div>
       <div><span class="prompt">└──────────────────────────────────────────────────────────────┘</span></div>
-      <div style="margin-top:10px;"><span class="cmd">root@zion</span>:<span class="cmd">~</span># <span class="cursor">█</span></div>
+      <div style="margin-top:15px;"><span class="cmd">root@zion</span>:<span class="cmd">~</span># <span class="cursor">█</span></div>
     </div>
   </foreignObject>
 </svg>
