@@ -51,3 +51,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=200&section=footer"/>
 
 </div>
+
+
+   <img src="https://img.shields.io/badge/このDIOだ-吸血鬼君临-FFD700?style=for-the-badge&logo=vampire&logoColor=red"/> <img src="https://img.shields.io/badge/The_World-時よ止まれ-000000?style=for-the-badge&color=FFD700"/> <img src="https://img.shields.io/badge/無駄無駄無駄無駄無駄-ラッシュ-FF0000?style=for-the-badge&logo=boxing-glove"/> <img src="https://img.shields.io/badge/Road_Roller_Da!-圧殺-FF4500?style=for-the-badge&logo=construction"/> <img src="https://img.shields.io/badge/你已经死了-只是还没刷新-8B00FF?style=for-the-badge&logo=skull"/>
