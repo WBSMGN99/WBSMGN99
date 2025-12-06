@@ -1,0 +1,13 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="heaven"><stop offset="0%" stop-color="#FFD700"/><stop offset="100%" stop-color="#FF0000"/></radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#000"/>
+  <circle cx="300" cy="100" r="80" fill="url(#heaven)">
+    <animate attributeName="r" values="80;120;80" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="300" y="110" font-size="48" fill="#FFF" font-family="Impact" text-anchor="middle">
+    HEAVEN
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+</svg>
